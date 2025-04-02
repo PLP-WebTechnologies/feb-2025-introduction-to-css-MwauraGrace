@@ -1,0 +1,53 @@
+/* Set the background color for the entire page */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif; /* Apply a different font */
+    color: #333; /* Set text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for elements with the class 'header' */
+  .header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+  }
+  
+  /* Style for the element with the ID 'main-image' */
+  #main-image {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #ddd;
+    padding: 5px;
+    width: 60%;
+  }
+  
+  /* Style for elements with the class 'content' */
+  .content {
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for paragraphs with a class 'intro' */
+  .intro {
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  /* Style for links inside the content */
+  .content a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .content a:hover {
+    text-decoration: underline;
+  }
+  
